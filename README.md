@@ -1,3 +1,4 @@
-# TyrangYang.github.io
+# Welcome to my Home page
 
-This is a test page right now.
+Please check 
+[https://tyrangyang.github.io](https://tyrangyang.github.io)
