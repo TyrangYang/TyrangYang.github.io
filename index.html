@@ -5,17 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>TyrangYang</title>
         <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
-            integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
+            src="https://kit.fontawesome.com/67bf073e9a.js"
             crossorigin="anonymous"
         ></script>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
-        <section class="showPart">
-            <div class="videoContainer">
-                <video src="bg.mp4" autoplay muted loop></video>
-            </div>
+        <section class="videoHeader">
             <div class="content">
                 <h1>Tyrang Yang</h1>
                 <h3>Stay Home & Be safe!</h3>
@@ -26,32 +22,39 @@
                 >
                 <!-- <a href="#about" class="btn">about</a> -->
             </div>
+            <div class="videoContainer">
+                <video src="./bg.mp4" autoplay muted loop></video>
+            </div>
+
+            <!-- <i class="fas fa-angle-double-down fa-3x pointDown"></i> -->
+
+            <a href="#test">
+                <img src="./css/down.png" alt="down" class="pointDown"
+            /></a>
         </section>
 
-        <section class="about" id="about">
-            <!-- <h1>About</h1>
-            <p>
-                klas;alhfkdsfjghdsogpoeijoiejfrf sakldfjlkdsfjg laksdfj dlsfg
-                jfklsdgjdflskg dsklfgjds dgjflk dgfjl
-            </p> -->
-            <h2>Contact Me</h2>
-            <div class="contact">
-                <a href="https://github.com/TyrangYang" target="_blank">
-                    <i class="fab fa-github-square fa-3x"></i>
-                </a>
-                <a
-                    href="https://www.linkedin.com/in/haolin-yang-2b3a061a3/"
-                    target="_blank"
-                >
-                    <i class="fab fa-linkedin fa-3x"></i>
-                </a>
-                <a href="https://twitter.com/TyrangYang" target="_blank">
-                    <i class="fab fa-twitter-square fa-3x"></i>
-                </a>
-                <a href="mailto:haolinyang95@gmail.com">
-                    <i class="fas fa-envelope-square fa-3x"></i>
-                </a>
-            </div>
+        <section>
+            <ul class="githubProject" id="test"></ul>
         </section>
+
+        <section class="contact">
+            <a href="https://github.com/TyrangYang" target="_blank">
+                <i class="fab fa-github-square fa-3x"></i>
+            </a>
+            <a
+                href="https://www.linkedin.com/in/haolin-yang-2b3a061a3/"
+                target="_blank"
+            >
+                <i class="fab fa-linkedin fa-3x"></i>
+            </a>
+            <a href="https://twitter.com/TyrangYang" target="_blank">
+                <i class="fab fa-twitter-square fa-3x"></i>
+            </a>
+            <a href="mailto:haolinyang95@gmail.com">
+                <i class="fas fa-envelope-square fa-3x"></i>
+            </a>
+        </section>
+
+        <script src="./index.js"></script>
     </body>
 </html>
